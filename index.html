@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="help">
+            <i class="fa-regular fa-circle-question" style="color: #ffffff;">
+            <div class="info">
+                <h3>How to play:</h3>
+                    <ul>
+                        <li>Press any key to start the game. A button will flash.</li>
+                        <li>Click on the same button. The game will flash another button, you have to click on the previous button along with the new button. Then again wait for the game to flash next button.</li>
+                        <li>Continue pressing the buttons in flashing sequence to continue playing.</li>
+                        <li>If you press the wrong button, you'll lose the game and your score will be displayed.</li>
+                    </ul>
+            </div></i>
+        </div>
+        <div class="highsc">
+            <h4>Highest Score: </h4>
+        </div>
+    </div>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to start</h2>
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red"></div>
+        <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" type="button" id="green"></div>
+        <div class="btn purple" type="button" id="purple"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
