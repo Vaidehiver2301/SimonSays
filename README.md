@@ -14,3 +14,4 @@ Simon Says is a memory game which puts the player's memory to a test. This simpl
 - If a wrong button is pressed, the game will get terminated and the highest score and current score is diplayed.
 
 # Link
+https://memorygamesimonsays.netlify.app/
